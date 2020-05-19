@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.panicbutton.ContactActivity">
+
+
+    <TextView
+        android:id="@+id/tvFirstContact"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Empty Phone number"/>
+
+    <Button
+        android:id="@+id/btnfirstContact"
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select a Contact"/>
+
+
+    <TextView
+        android:id="@+id/tvSecondContact"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:hint="Empty Phone number"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSecondContact"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select a Contact"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:onClick="savaData"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        />
+
+</LinearLayout>
