@@ -86,8 +86,8 @@ String s ;
 
 
 
-                                String yazı = "merhaba canim";
-                                sms.putExtra("sms_body"," acillll"+locationText.getText());
+                                String yazı = "hello";
+                                sms.putExtra("sms_body"," acil"+locationText.getText());
                                 startActivity(sms);
 
 
